@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<style>
+		.product{
+			width: 50%;
+			height: 400px;			
+		}
+		.product .p1{
+			width: 100%;
+			height: 360px;
+			clear: both;
+		}
+		.product .p1 .img{
+			width: 50%;
+			height: 100%;
+			float: left;
+		}
+		.product .p1 .rate{
+			width: 50%;
+			height: 100%;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="product">
+		<div class="p1">
+			<div class="img">
+				<img src="" width="100px" height="100px" alt="">
+			</div>
+			<div class="rate">
+				<p>Đánh giá:</p><table border='1'><tr><td width='50px'>*</td><td>: ".$row['rate_1']."</td></tr><tr><td>**</td><td>: ".$row['rate_2']."</td></tr><tr><td>***</td><td>: ".$row['rate_3']."</td></tr><tr><td>****</td><td>: ".$row['rate_4']."</td></tr><tr><td>*****</td><td>: ".$row['rate_5']."</td></tr></table>
+			</div>
+		</div>
+		<div class="p2">
+			<p>Macbook</p>
+		</div>
+	</div>
+</body>
+</html>

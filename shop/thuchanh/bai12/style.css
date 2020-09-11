@@ -1,0 +1,90 @@
+body{
+	width: 100%;
+	margin: auto;
+}
+.product{
+	width: 42%;
+	height: 240px;	
+	float: left;
+	border: solid 0.5px silver;	
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.product .p1{
+	width: 100%;
+	height: 200px;
+}
+.product .p1 img{
+	width: 200px;
+	height: 180px;
+}
+.product .p1 .img{
+	width: 64%;
+	height: 100%;
+	float: left;
+	padding-top: 15px;
+	padding-left: 5px;
+	margin-bottom: -15px;	
+}
+.product .p1 .rate{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.product .p2{
+	width: 100%;
+	height: 36px;
+	text-align: left;
+	line-height: 36px;
+}		
+.product .p2 a{
+	text-decoration: none;
+	color: blue;
+	font-size: 20px;
+	padding-left: 40px;
+}
+.product-id{
+	width: 60%;
+	height: 360px;
+	border: solid 0.5px silver;	
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-bottom: -15px;
+}
+.product-id .p1{
+	width: 100%;
+	height: 300px;
+}
+.product-id .p1 img{
+	width: 320px;
+	height: 280px;
+}
+.product-id .p1 .img{
+	width: 64%;
+	height: 100%;
+	float: left;
+	padding-top: 15px;
+	padding-left: 5px;
+	margin-bottom: -15px;	
+}
+.product-id .p1 .rate{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding-left: 15px;
+	padding-top: 40px;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+.product-id .p2{
+	width: 100%;
+	height: 36px;
+	text-align: left;
+	line-height: 36px;
+}		
+.product-id .p2 a{
+	text-decoration: none;
+	color: blue;
+	font-size: 20px;
+	padding-left: 40px;
+}

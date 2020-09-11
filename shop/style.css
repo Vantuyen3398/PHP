@@ -1,0 +1,114 @@
+ 
+
+  .carousel-inner{
+    > .item{
+     
+      transition: 5000ms ease-in-out all; // là kiểu chuyển động nhanh ở lúc bắt đầu và chậm ở lúc kết thúc.
+    }
+
+}
+
+#wrapper .content .banner img {
+	width: 100%;
+	height: 50px;
+   overflow: hidden; // tránh lỗi hình quá lớn đè lên nội dung các phần khác
+   padding-left: 15px;
+   box-sizing: border-box; // cố định kích thước của slide
+}
+#wrapper .content .box-index h2 {
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #444;
+  border-bottom: 3px solid #EEE;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+#wrapper .content .box-index h2::before {
+  content: "";
+  width: 70px;
+  background: #2673BB none repeat scroll 0% 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+}
+#wrapper .content .box-index .item {
+  margin-bottom: 20px;
+}
+#wrapper .content .box-index .item h3 {
+  font-size: 16px;
+}
+#wrapper .sidebar .sidebar-item {
+  margin-bottom: 30px;
+}
+#wrapper .sidebar .sidebar-item h4.widget-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #444;
+  border-bottom: 3px solid #EEE;
+  position: relative;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+#wrapper .sidebar .sidebar-item h4.widget-title::before {
+  content: "";
+  display: block;
+  width: 70px;
+  background: #2673BB none repeat scroll 0% 0%;
+  height: 3px;
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+}
+#wrapper .sidebar .sidebar-item .textwidget img {
+  width: 100%;
+  height: auto;
+}
+h1.archive-title {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+#wrapper .content .box-index .item img{
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.item-archive {
+  border: 1px solid #dcdcdc;
+  box-shadow: 2px 2px 2px #dcdcdc;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.item-archive .thumb img {
+  width: 100%;
+  height: auto;
+}
+.item-archive .detail a.readmore {
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  background: #09D5F3;
+}
+h1.single-title {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.single-content {
+  text-align: justify;
+  border: 1px solid #dcdcdc;
+  box-shadow: 2px 2px 2px #dcdcdc;
+  padding: 10px;
+}
+footer {
+  background: #2E2E2E;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 400px){
+  .banner{
+    display: none !important;
+  }
+}
